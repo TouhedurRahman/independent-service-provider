@@ -90,7 +90,7 @@ const Login = () => {
                         <input type="checkbox" class="form-check-input" onClick={togglePassword} id="exampleCheck1" />
                         <label class="form-check-label" for="exampleCheck1">Show Password</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Login</button>
                 </form>
                 {errorElement}
                 <p>
