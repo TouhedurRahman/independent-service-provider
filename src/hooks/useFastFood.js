@@ -2,16 +2,16 @@ import { useEffect, useState } from "react";
 
 
 const useFastFood = () => {
-    const [fastFoods, setfastFoods] = useState([]);
+    const [fastFoods, setFastFoods] = useState([]);
 
     useEffect(() => {
         const url = "fast-food.json";
         fetch(url)
             .then(res => res.json())
-            .then(data => setfastFoods(data))
+            .then(data => setFastFoods(data))
     }, []);
 
-    return [fastFoods, setfastFoods];
+    return [fastFoods, setFastFoods];
 };
 
 export default useFastFood;
