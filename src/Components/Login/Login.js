@@ -5,7 +5,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import auth from '../../firebase.init';
 import Loading from '../Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
-import './Login.css';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
@@ -81,11 +80,11 @@ const Login = () => {
                     <h1 className='text-center text-primary'>Login</h1>
                     <div class="mb-3">
                         <label for="exampleInputEmail" class="form-label">Email address</label>
-                        <input type="email" ref={emailRef} class="form-control" id="exampleInputEmail" required />
+                        <input type="email" ref={emailRef} class="form-control" id="exampleInputEmail" placeholder="abc@gmail.com" required />
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword" class="form-label">Password</label>
-                        <input type={passwordShown ? "text" : "password"} ref={passwordRef} class="form-control" id="exampleInputPassword" required />
+                        <input type={passwordShown ? "text" : "password"} ref={passwordRef} class="form-control" id="exampleInputPassword" placeholder="********" required />
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" onClick={togglePassword} id="exampleCheck1" />

@@ -5,7 +5,6 @@ import auth from '../../firebase.init';
 import Loading from '../Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import { ToastContainer, toast } from 'react-toastify';
-import './Registration.css';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Registration = () => {
@@ -63,19 +62,19 @@ const Registration = () => {
                     <h1 className='text-center text-primary'>Please Register</h1>
                     <div class="mb-3">
                         <label for="exampleInputName" class="form-label">Name</label>
-                        <input type="text" name="name" class="form-control" id="exampleInputName" required />
+                        <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Full Name" required />
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail" class="form-label">Email address</label>
-                        <input type="email" name="email" class="form-control" id="exampleInputEmail" required />
+                        <input type="email" name="email" class="form-control" id="exampleInputEmail" placeholder="abc@gmail.com" required />
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type={passwordShown ? "text" : "password"} name="password" class="form-control" id="exampleInputPassword1" required />
+                        <input type={passwordShown ? "text" : "password"} name="password" class="form-control" id="exampleInputPassword1" placeholder="********" required />
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
-                        <input type={passwordShown ? "text" : "password"} name="confirmPassword" class="form-control" id="exampleInputPassword2" required />
+                        <input type={passwordShown ? "text" : "password"} name="confirmPassword" class="form-control" id="exampleInputPassword2" placeholder="********" required />
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" onClick={togglePassword} id="exampleCheck1" />
