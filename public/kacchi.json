@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Shahi Kacchi",
+        "image": "../images/kacchi/kacchi-01.jpg",
+        "price": "180 ৳",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore!"
+    },
+    {
+        "id": 2,
+        "name": "Beef Kacchi",
+        "image": "../images/kacchi/kacchi-02.jpg",
+        "price": "160 ৳",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore!"
+    },
+    {
+        "id": 3,
+        "name": "Khashi Kacchi",
+        "image": "../images/kacchi/kacchi-03.jpg",
+        "price": "140 ৳",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore!"
+    }
+]
