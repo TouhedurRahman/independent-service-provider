@@ -3,6 +3,8 @@ import './App.css';
 import CheckOut from './Components/CheckOut/CheckOut';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
+import Login from './Components/Login/Login';
+import Registration from './Components/Registration/Registration';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
         <Route path="/checkout" element={<CheckOut />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/register" element={<Registration />}></Route>
       </Routes>
     </div>
   );
