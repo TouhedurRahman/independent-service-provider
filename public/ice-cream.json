@@ -1,20 +1,20 @@
 [
     {
-        "id": 1,
+        "id": 7,
         "name": "Choco Cone",
         "image": "../images/ice-cream/ice-01.png",
         "price": "40 ৳",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore!"
     },
     {
-        "id": 2,
+        "id": 8,
         "name": "Cupcake Chocolate",
         "image": "../images/ice-cream/ice-02.png",
         "price": "20 ৳",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore!"
     },
     {
-        "id": 3,
+        "id": 9,
         "name": "Choco Bar",
         "image": "../images/ice-cream/ice-03.jpg",
         "price": "25 ৳",
