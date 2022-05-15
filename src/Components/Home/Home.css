@@ -1,16 +1,10 @@
-.kacchi-container {
-    margin: 0;
+.item-container {
+    margin: 10px auto;
 }
 
-.display-kacchi {
+.display-item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     padding: 10px 40px;
-}
-
-.see-more {
-    text-decoration: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }

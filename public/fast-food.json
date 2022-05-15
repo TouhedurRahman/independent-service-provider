@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Burger",
+        "image": "../images/fast-food/fast-food-01.jpg",
+        "price": "80 ৳",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore!"
+    },
+    {
+        "id": 2,
+        "name": "Pizza",
+        "image": "../images/fast-food/fast-food-02.jpg",
+        "price": "120 ৳",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore!"
+    },
+    {
+        "id": 3,
+        "name": "Hot Dog",
+        "image": "../images/fast-food/fast-food-03.jpg",
+        "price": "40 ৳",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore!"
+    }
+]
