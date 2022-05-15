@@ -1,11 +1,11 @@
 import React from 'react';
-import './KacchiServices.css';
+import './Service.css';
 
-const KacchiServices = ({ kacchi }) => {
-    const { name, image, price, description } = kacchi;
+const Service = ({ service }) => {
+    const { name, image, price, description } = service;
 
     return (
-        <div className='kaccchi-service'>
+        <div className='item-service'>
             <img className='pt-3 rounded-3' src={image} alt="" />
             <h2>{name}</h2>
             <p><small>{description}</small></p>
@@ -18,4 +18,4 @@ const KacchiServices = ({ kacchi }) => {
     );
 };
 
-export default KacchiServices;
+export default Service;
