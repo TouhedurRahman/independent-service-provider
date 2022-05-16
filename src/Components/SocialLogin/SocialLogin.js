@@ -39,7 +39,7 @@ const SocialLogin = () => {
             {errorElement}
 
             <div>
-                <button onClick={() => signInWithGoogle()} className='btn btn-light btn-outline-success w-50 d-block mx-auto my-2 py-3 rounded-pill'>
+                <button onClick={() => signInWithGoogle()} className='btn btn-light btn-outline-success w-75 d-block mx-auto my-2 py-3 rounded-pill'>
                     <img style={{ width: '30px', borderRadius: '50%' }} src="../images/social/google.png" alt="" />
                     <span style={{ fontSize: "16px", fontWeight: "900" }} className='px-2'>Google Sign In</span>
                 </button>

@@ -6,6 +6,8 @@ import Loading from '../Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from '../Footer/Footer';
+import './Registration.css';
 
 const Registration = () => {
     const [passwordShown, setPasswordShown] = useState(false);
@@ -57,7 +59,7 @@ const Registration = () => {
 
     return (
         <div>
-            <div className='w-50 mx-auto border border-success p-5 mt-5 mb-5 rounded-3'>
+            <div className='reg-container mx-auto border border-success p-5 mt-5 mb-5 rounded-3'>
                 <form onSubmit={handleRegister}>
                     <h1 className='text-center text-primary'>Please Register</h1>
                     <div class="mb-3">
@@ -83,12 +85,13 @@ const Registration = () => {
                     <button type="submit" class="btn btn-primary">Register</button>
                 </form>
 
-                <p>
+                <p className='text-center'>
                     Already have an account? <Link to="/login" className='text-primary text-decoration-none pe-auto' onClick={navigateLogin}>Please Login</Link>
                 </p>
                 <SocialLogin></SocialLogin>
                 <ToastContainer />
             </div>
+            <Footer></Footer>
         </div>
     );
 };

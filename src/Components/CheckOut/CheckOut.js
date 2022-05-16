@@ -2,6 +2,8 @@ import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
+import Footer from '../Footer/Footer';
+import './CheckOut.css';
 
 const CheckOut = () => {
     const [user] = useAuthState(auth);
@@ -13,7 +15,7 @@ const CheckOut = () => {
 
     return (
         <div>
-            <div className='w-50 mx-auto border border-success p-5 mt-5 mb-5 rounded-3'>
+            <div className='checkout-container mx-auto border border-success p-5 mt-5 mb-5 rounded-3'>
                 <form onSubmit={handleOnConfirm}>
                     <h1 className='text-center text-primary'>Confirm Order</h1>
                     <div className="mb-3">
@@ -39,6 +41,7 @@ const CheckOut = () => {
                     <button type="submit" className="btn btn-primary">Confirm Purchase</button>
                 </form>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

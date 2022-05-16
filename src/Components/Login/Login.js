@@ -6,6 +6,8 @@ import auth from '../../firebase.init';
 import Loading from '../Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from '../Footer/Footer';
+import './Login.css';
 
 const Login = () => {
     const [passwordShown, setPasswordShown] = useState(false);
@@ -75,7 +77,7 @@ const Login = () => {
 
     return (
         <div>
-            <div className='w-50 mx-auto border border-success p-5 mt-5 mb-5 rounded-3'>
+            <div className='login-container mx-auto border border-success p-5 mt-5 mb-5 rounded-3'>
                 <form onSubmit={handleOnSubmit}>
                     <h1 className='text-center text-primary'>Login</h1>
                     <div class="mb-3">
@@ -93,15 +95,16 @@ const Login = () => {
                     <button type="submit" class="btn btn-primary">Login</button>
                 </form>
                 {errorElement}
-                <p>
+                <p className='text-center'>
                     Forget password?<button className='btn btn-link text-primary text-decoration-none pe-auto' onClick={resetPassword}>Reset Password</button>
                 </p>
-                <p>
+                <p className='text-center'>
                     New to Food Mart? <Link to="/register" className='text-primary text-decoration-none pe-auto' onClick={navigateRegister}>Please Register</Link>
                 </p>
                 <SocialLogin></SocialLogin>
                 <ToastContainer />
             </div>
+            <Footer></Footer>
         </div>
     );
 };

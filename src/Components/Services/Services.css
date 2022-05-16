@@ -8,3 +8,12 @@
     grid-gap: 10px;
     padding: 10px 40px;
 }
+
+@media only screen and (max-width:688px) {
+    .display-item {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        padding: 10px 40px;
+    }
+}

@@ -1,0 +1,9 @@
+.reg-container {
+    width: 50%;
+}
+
+@media only screen and (max-width:688px) {
+    .reg-container {
+        width: 75%;
+    }
+}
