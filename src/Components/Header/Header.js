@@ -38,7 +38,7 @@ const Header = () => {
                         >
                             <span className='my-auto' style={{ color: "white", marginRight: "20px" }}>
                                 {
-                                    user?.displayName && user.displayName
+                                    user?.email && user.email
                                 }
                             </span>
                             {
