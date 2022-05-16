@@ -4,3 +4,10 @@
     padding-bottom: 10px;
     text-align: center;
 }
+
+@media only screen and (max-width:688px) {
+    .item-service img {
+        width: 280px;
+        height: 220px;
+    }
+}
