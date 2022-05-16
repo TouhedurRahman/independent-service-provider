@@ -1,0 +1,22 @@
+.about-myself {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+}
+
+@media only screen and (max-width:688px) {
+    .about-myself {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        margin: auto;
+    }
+}

@@ -47,7 +47,7 @@ const Registration = () => {
         if (password === confirmPassword) {
             await createUserWithEmailAndPassword(email, password);
             await updateProfile({ displayName: name });
-            alert('Updated profile');
+            alert('Registration Successfull. Wellcome to Food Mart!');
             navigate('/home');
         }
         else {

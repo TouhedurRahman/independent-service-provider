@@ -1,5 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import AboutMe from './Components/AboutMe/AboutMe';
+import Blog from './Components/Blog/Blog';
 import CheckOut from './Components/CheckOut/CheckOut';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
@@ -25,6 +27,8 @@ function App() {
         ></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Registration />}></Route>
+        <Route path="/blog" element={<Blog />}></Route>
+        <Route path="/about" element={<AboutMe />}></Route>
         <Route path="*" element={<PageNotFound />}></Route>
       </Routes>
     </div>
