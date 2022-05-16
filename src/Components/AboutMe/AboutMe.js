@@ -7,7 +7,7 @@ const AboutMe = () => {
         <div>
             <div className='about-me border border-success w-75 mt-5 mb-5 mx-auto p-3' style={{ borderRadius: "30px" }}>
                 < div className='about-myself'>
-                    <img className='p-3' style={{ width: "200px", height: "200px", borderRadius: "50%" }} src="../images/about-me/touhed.jpg" alt="" />
+                    <img className='p-3' style={{ width: "200px", height: "200px", borderRadius: "50%" }} src="../images/about-me/touhed.jpg" alt="Profile Pic..." />
                     <div className='p-3'>
                         <h3>Touhedur Rahman Khan</h3>
                         <h5>BSc. in Computer Science and Engineering</h5>

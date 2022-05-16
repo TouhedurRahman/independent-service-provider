@@ -36,6 +36,11 @@ const Header = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
+                            <span className='my-auto' style={{ color: "white", marginRight: "20px" }}>
+                                {
+                                    user?.displayName && user.displayName
+                                }
+                            </span>
                             {
                                 user ?
                                     <button onClick={handleSignOut} className="btn btn-link text-white text-decoration-none">Log Out</button>
@@ -48,7 +53,7 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </div>
+        </div >
     );
 };
 

@@ -1,11 +1,12 @@
 .not-found {
     text-align: center;
+    margin-bottom: 35px;
 }
 
 .not-found img {
     margin: 35px auto;
-    width: 350px;
-    height: 230px;
+    width: 300px;
+    height: 200px;
 }
 
 .home-btn {

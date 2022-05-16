@@ -1,0 +1,16 @@
+.qna {
+    margin: 35px;
+    padding: 35px;
+    border-radius: 35px;
+    box-shadow: 3px 6px 28px 7px #000000;
+}
+
+.question {
+    padding: 10px;
+    text-align: center;
+}
+
+.answer {
+    padding: 10px;
+    text-align: justify;
+}
