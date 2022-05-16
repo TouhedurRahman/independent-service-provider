@@ -84,7 +84,7 @@ const Registration = () => {
                 </form>
 
                 <p>
-                    Already have an account? <Link to="/login" className='text-danger text-decoration-none pe-auto' onClick={navigateLogin}>Please Login</Link>.
+                    Already have an account? <Link to="/login" className='text-primary text-decoration-none pe-auto' onClick={navigateLogin}>Please Login</Link>
                 </p>
                 <SocialLogin></SocialLogin>
                 <ToastContainer />
