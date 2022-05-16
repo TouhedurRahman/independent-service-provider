@@ -9,7 +9,7 @@ const Service = ({ service }) => {
         <div className='item-service'>
             <img className='pt-3 rounded-3' src={image} alt="" />
             <h2>{name}</h2>
-            <p><small>{description}</small></p>
+            <p className='ps-3 pe-3'><small>{description}</small></p>
             <p>Price: {price}</p>
             <Link to="/checkout">
                 <button className='btn btn-primary'>Order Now</button>

@@ -4,20 +4,20 @@
         "name": "Choco Cone",
         "image": "../images/ice-cream/ice-01.png",
         "price": "40 ৳",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore!"
+        "description": "The originial test of chocolate cone. 100% authentic and originial flavour of Chocolate."
     },
     {
         "id": 8,
         "name": "Cupcake Chocolate",
         "image": "../images/ice-cream/ice-02.png",
         "price": "20 ৳",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore!"
+        "description": "The originial test of chocolate cup. 100% authentic and originial flavour of Chocolate."
     },
     {
         "id": 9,
         "name": "Choco Bar",
         "image": "../images/ice-cream/ice-03.jpg",
         "price": "25 ৳",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore!"
+        "description": "The originial test of chocolate choco bar. 100% authentic and originial flavour of Chocolate."
     }
 ]

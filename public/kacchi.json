@@ -4,20 +4,20 @@
         "name": "Shahi Kacchi",
         "image": "../images/kacchi/kacchi-01.jpg",
         "price": "180 ৳",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore!"
+        "description": "Shahi Kacchi from Shahi Ghor. The originial test of the kacchi. Shahi Test Shahi Masala."
     },
     {
         "id": 2,
         "name": "Beef Kacchi",
         "image": "../images/kacchi/kacchi-02.jpg",
         "price": "160 ৳",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore!"
+        "description": "The Originial test of beef kacchi. We make our best kacchi only for you. 100% home made."
     },
     {
         "id": 3,
         "name": "Khashi Kacchi",
         "image": "../images/kacchi/kacchi-03.jpg",
         "price": "140 ৳",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, labore!"
+        "description": "The authentic test form kacchi. Originial test of the Khashi Kacchi with bashmoti rice."
     }
 ]
